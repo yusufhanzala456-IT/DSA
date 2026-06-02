@@ -7,14 +7,15 @@ public class binomlcoeffi{
         }
         return f;
     }
-    public static void main(String[] args){
-    
-    int n = 5, r=2;
+    public static int binomial_coefficient(int n, int r){
        int n_fact = fact(n);
        int r_fact = fact(r);
        int nmr_fact = fact(n-r);
 
        int  binomial_coefficient = (n_fact) / (r_fact * nmr_fact);
-       System.out.println(binomial_coefficient);
+       return binomial_coefficient;
+    }
+    public static void main(String[] args){
+       System.out.println(binomial_coefficient(5 ,2));
     }
 }
