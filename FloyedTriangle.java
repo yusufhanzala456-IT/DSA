@@ -1,4 +1,4 @@
-public class printpattern {
+public class FloyedTriangle {
     int counter = 1;
     public static void pattern_counter(int n){
         int counter = 1;
